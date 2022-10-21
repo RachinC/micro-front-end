@@ -10,11 +10,6 @@ node v15.3.0
 ```js
 npm v7.0.14
 ```
-
-Clone below repos, build them to get the build file(app.js) and start the dev server
-https://github.com/RachinC/microfrontends-react-nav
-https://github.com/RachinC/microfrontends-react-app1
-https://github.com/RachinC/microfrontends-react-app2
 ------------------------------
 
 ### Step 1
@@ -28,6 +23,14 @@ npm install
 ```
 
 ### Step 3
+```js
+Clone below repos inside microfrontends, build them to get the build file(app.js) and start the dev server
+https://github.com/RachinC/microfrontends-react-nav
+https://github.com/RachinC/microfrontends-react-app1
+https://github.com/RachinC/microfrontends-react-app2
+```
+
+### Step 4
 Update the index.ejs(Already updated)
 ```js
 <script type="systemjs-importmap">
@@ -57,7 +60,7 @@ Update the index.ejs(Already updated)
 <% } %>
 ```
 
-### Step 4
+### Step 5
 Update microfrontend-layout.html(Already updated)
 ```js
 <main>
