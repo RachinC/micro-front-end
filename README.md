@@ -81,3 +81,9 @@ Start the dev server
 ```js
 npm start
 ```
+
+### Step 7
+Dev Tool
+```js
+http://single-spa-playground.org/playground/instant-test?name=@test-sinle-spa/root-config&url=9000
+```
